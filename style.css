@@ -1,0 +1,349 @@
+body
+{
+    background-color: rgb(250, 233, 233);
+    color: rgb(0, 0, 0);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+.introduction
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: rgb(168, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.Menu
+{
+    background-color: #000000;
+    height: auto;
+    width: 300px;
+    border-radius: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    display: none;
+}
+
+
+.Hidden
+{
+    background-color: rgba(0, 0, 0, 0.904);
+    color: rgb(253, 253, 253);
+    font-size: 20px;
+    padding: 7px;
+}
+
+.title_name
+{
+    color: rgb(184, 184, 64);
+}
+
+.navbar {
+    margin-left: auto;
+    float: right;
+    list-style: none;
+    display: flex;
+    justify-content: center; /* You can change this to adjust alignment */
+    align-items: center; /* You can change this to adjust alignment */
+    padding: 8;
+    font-size: small;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+      display: none; /* Hide the menu by default on smaller screens */
+    }
+    .navbar.active {
+      display: block; /* Display the menu when active */
+    }
+}
+
+
+
+.navbar li {
+    padding: 10px 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    margin: 0 5px;
+    background-color: #000;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.active {
+    color: #ffffff;
+}
+
+.navbar li:hover {
+    background-color: #8e0101;
+    transition: .5s;
+}
+
+.navbar2
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar2 li {
+    padding: 10px 10px;
+    border: 1px solid #bc0d0d;
+    border-radius: 4px;
+    margin: 0 5px;
+    background-color: rgb(250, 233, 233);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.navbar2 li a
+{
+    color: #000;
+}
+
+.navbar2 li:hover {
+    background-color: #8e0101;
+    transition: .5s;
+}
+
+.MenuNav {
+    display: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #000000;
+    color: white;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 800px)
+{
+    .MenuNav{
+        display: block;
+        padding: 15px 30px;
+    }
+}
+
+@media (max-width: 650px)
+{
+    .MenuNav{
+        display: block;
+        font-size: smaller;
+        padding: 7px 12px;
+    }
+}
+.MenuNav:hover {
+    background-color: #8e0101;
+}
+
+.title
+{
+
+    background-image: linear-gradient(rgb(24, 23, 23), rgb(166, 0, 0),rgba(181, 50, 50, 0.687));
+    color: rgb(223, 223, 223);
+    border: 1.5px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+}
+
+@media (max-width: 650px)
+{
+    .title{
+        font-size: smaller;
+    }
+}
+
+.SCP_img
+{
+    padding-right: 15px;
+}
+
+.mainpage
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+.Document
+{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Item_num
+{
+    background-color: rgb(67, 68, 71);
+    color: rgb(248, 246, 246);
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 35%;
+    width: fit-content;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 800px)
+{
+    .Item_num{
+        font-size: small;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .Item_num{
+        font-size: xx-small;
+    }
+}
+
+
+.responsive_img
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.background_behind_IMG
+{
+    background-color: rgb(130, 113, 113);
+    border: 1.5px solid black;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);;
+    
+}
+
+.Euclid
+{
+    border: 2px solid black;
+    color: black;
+    width: max-content;
+    margin-top: 15px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: rgba(252, 117, 7, 0.788);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 800px)
+{
+    .Euclid{
+        font-size: small;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .Euclid{
+        font-size: xx-small;
+    }
+}
+.Safe
+{
+    border: 2px solid black;
+    color: black;
+    width: max-content;
+    margin-top: 15px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: rgb(111, 222, 47);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 800px)
+{
+    .Safe{
+        font-size: small;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .Safe{
+        font-size: xx-small;
+    }
+}
+
+.Report_doc 
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: rgb(67, 68, 71);
+    color: rgb(243, 237, 237);
+    padding: 25px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.Returntotop
+{
+height: 50px;
+align-items: center;
+width: auto;
+text-align: center;
+}
+
+#returnToTopButton
+{
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: larger;
+    background-color: #bb0000;
+    cursor: pointer;
+}
+
+#returnToTopButton:hover
+{
+background-color: #960101;
+transition: .5s;
+}
+
+@media (max-width:700px)
+{
+    #returnToTopButton{
+        font-size: medium;
+    }
+}
+
+@media (max-width:500px)
+{
+    #returnToTopButton{
+        font-size: small;
+    }
+}
